@@ -72,13 +72,13 @@ SCRIPT_MAP = {
 def get_available_scripts(language):
     scripts = {
         'vi': [
-            {"name": "1. Faucet $DIAM", "value": "faucet"},
+            {"name": "1. Faucet USDC | USDT", "value": "faucet"},
             {"name": "2. Tự động checkin GM", "value": "gm"},
 
             {"name": "X. Thoát", "value": "exit"},
         ],
         'en': [
-            {"name": "1. Faucet $DIAM", "value": "faucet"},
+            {"name": "1. Faucet USDC | USDT", "value": "faucet"},
             {"name": "2. Checkin GM", "value": "gm"},
           
             {"name": "X. Thoát", "value": "exit"},
